@@ -4,7 +4,7 @@ export declare const AssetAccountSchema: mongoose.Schema<any, mongoose.Model<any
         th?: string;
         en?: string;
     };
-    created_date?: Date;
     is_fixed_asset?: boolean;
     is_tangible_asset?: boolean;
+    created_date?: Date;
 }>;

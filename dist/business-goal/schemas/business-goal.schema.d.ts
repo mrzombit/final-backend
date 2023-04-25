@@ -5,6 +5,6 @@ export declare const BusinessGoalSchema: mongoose.Schema<any, mongoose.Model<any
         en?: string;
     };
     created_date?: Date;
-    full_name?: string;
     detail?: any;
+    full_name?: string;
 }>;

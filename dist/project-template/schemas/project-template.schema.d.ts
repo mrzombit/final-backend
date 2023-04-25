@@ -12,8 +12,8 @@ export declare const ProjectTemplateSchema: mongoose.Schema<any, mongoose.Model<
         business_goals: mongoose.Types.DocumentArray<any> | any[];
         name?: string;
         description?: string;
-        logo_url?: string;
         created_date?: Date;
+        logo_url?: string;
         modified_date?: Date;
         ffcReason?: string;
         model_config?: {
@@ -100,8 +100,8 @@ export declare const ProjectTemplateSchema: mongoose.Schema<any, mongoose.Model<
         };
         miscellaneous?: {
             equity_contribution: {
-                date?: Date;
                 name?: string;
+                date?: Date;
                 amount?: number;
                 repayment?: {
                     start_date?: Date;

@@ -13,11 +13,11 @@ export declare const ProjectSchema: mongoose.Schema<any, mongoose.Model<any, any
         };
         detail?: any;
     }[];
-    user_id?: string;
     name?: string;
     description?: string;
-    logo_url?: string;
     created_date?: Date;
+    user_id?: string;
+    logo_url?: string;
     modified_date?: Date;
     ffcReason?: string;
     model_config?: {
